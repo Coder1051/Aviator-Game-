@@ -77,7 +77,7 @@ export default function About() {
             <p style={{
               margin: '0 0 12px 0',
               padding: '0',
-              color: '#555',
+              color: '#5f6368',
               fontSize: 'clamp(0.875rem, 2vw, 0.875rem)',
               lineHeight: '1.5',
               wordBreak: 'break-word'
@@ -99,7 +99,7 @@ export default function About() {
             <p style={{
               margin: '0',
               padding: '0',
-              color: '#555',
+              color: '#5f6368',
               fontSize: 'clamp(0.875rem, 2vw, 0.875rem)',
               lineHeight: '1.5',
               wordBreak: 'break-word'
@@ -172,7 +172,7 @@ export default function About() {
             <p style={{
               margin: '0',
               padding: '0',
-              color: '#555',
+              color: '#5f6368',
               fontSize: 'clamp(0.875rem, 2vw, 0.875rem)',
               lineHeight: '1.5',
               wordBreak: 'break-word'
@@ -188,7 +188,7 @@ export default function About() {
             border: '1px solid #ddd',
             borderRadius: '8px',
             padding: 'clamp(15px, 3vw, 20px)',
-            backgroundColor: '#fafafa',
+            backgroundColor: '#ffffff',
             marginTop: '16px',
             marginBottom: '10px'
           }}>
@@ -204,7 +204,7 @@ export default function About() {
             >
               <IoShareSocialOutline
                 style={{
-                  color: '#4a4a4a',
+                  color: '#5f6368',
                   fontSize: 'clamp(18px, 3vw, 20px)',
                   marginTop: '3px',
                   flexShrink: 0
@@ -212,9 +212,9 @@ export default function About() {
               />
               <div style={{ flex: 1, minWidth: 0 }}>
                 <p style={{
-                  fontWeight: '500',
+                  fontWeight: '400',
                   marginBottom: '4px',
-                  color: '#000',
+                  color: '#5f6368',
                   margin: '0 0 4px 0',
                   fontSize: 'clamp(0.875rem, 2vw, 1rem)'
                 }}>
@@ -223,7 +223,7 @@ export default function About() {
                 <p style={{
                   padding: '0',
                   margin: '0',
-                  color: '#555',
+                  color: '#5f6368',
                   fontSize: 'clamp(0.8rem, 2vw, 0.875rem)',
                   lineHeight: '1.4',
                   wordBreak: 'break-word'
@@ -250,7 +250,7 @@ export default function About() {
             >
               <AiOutlineCloudUpload
                 style={{
-                  color: '#4a4a4a',
+                  color: '#5f6368',
                   fontSize: 'clamp(18px, 3vw, 20px)',
                   marginTop: '3px',
                   flexShrink: 0
@@ -258,9 +258,9 @@ export default function About() {
               />
               <div style={{ flex: 1, minWidth: 0 }}>
                 <p style={{
-                  fontWeight: '500',
+                  fontWeight: '400',
                   marginBottom: '4px',
-                  color: '#000',
+                  color: '#5f6368',
                   margin: '0 0 4px 0',
                   fontSize: 'clamp(0.875rem, 2vw, 1rem)'
                 }}>
@@ -398,7 +398,16 @@ export default function About() {
                   wordBreak: 'break-word'
                 }}>
                   India's first leading real money making Aviator game where you can start earning instantly and withdraw
-                  profit directly to your Bank account using UPI. You can change your destiny using this app.
+                  profit directly to your Bank account using UPI. You can
+                </p>
+                <p style={{
+                  color: '#555',
+                  lineHeight: '1.6',
+                  fontSize: 'clamp(0.875rem, 2.5vw, 1rem)',
+                  marginBottom: '16px',
+                  wordBreak: 'break-word'
+                }}>
+                  change your destiny using this app.
                 </p>
                 <p style={{
                   color: '#555',

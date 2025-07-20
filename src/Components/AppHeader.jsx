@@ -1,7 +1,20 @@
 import './css/AppHeader.css';
 import { MdDevices } from "react-icons/md";
 import { InfoOutlined } from '@mui/icons-material';
+import { useState } from 'react';
 const AppHeader = () => {
+  const [isInitializing, setIsInitializing] = useState(false);
+
+  const handleInstallClick = () => {
+    setIsInitializing(true);
+
+    setTimeout(() => {
+      // Open download link after 3 seconds
+      window.open('https://your-download-link.com', '_blank'); // Enter Your Link here
+      setIsInitializing(false);
+    }, 3000);
+  };
+
   return (
     <div className="app-header">
       {/* 1. App Info */}
@@ -47,7 +60,18 @@ const AppHeader = () => {
       </div>
       {/* 3. Install Button & Wishlist */}
       <div className="install-section">
-        <button className="install-button " style={{height:''}}>Install</button>
+        <button
+          className="install-button"
+          onClick={handleInstallClick}
+          disabled={isInitializing}
+          style={{
+            backgroundColor: isInitializing ? '#027e5a' : '#027e5a',
+            cursor: isInitializing ? 'not-allowed' : 'pointer',
+            opacity: isInitializing ? 0.6 : 1
+          }}
+        >
+          {isInitializing ? 'Initialize...' : 'Install'}
+        </button>
         <div className="wishlist text-center">
           <svg className="my-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 3H17C18.1045 3 19 3.8955 19 5V21L12 18L5 21L5.01075 5C5.01075 3.8955 5.8965 3 7 3ZM12 15.824L17 18V5H7V18L12 15.824ZM13 7V9H15V11H13V13H11V11H9V9H11V7H13Z" />

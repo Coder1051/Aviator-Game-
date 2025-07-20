@@ -122,8 +122,8 @@ export default function Rating() {
           <h6
             className="mx-3 mt-2 d-flex text-truncate"
             style={{
-              fontWeight: '500',
-              color: '#212529',
+              fontWeight: '400',
+              color: '#333333',
               maxWidth: '250px',
             }}
           >
@@ -195,7 +195,8 @@ export default function Rating() {
               padding: '4px 12px',
               letterSpacing: '1px',
               lineHeight: '20px',
-              whiteSpace: 'nowrap'
+              whiteSpace: 'nowrap',
+              fontWeight:'500'
             }}>
               Yes
             </span>
@@ -209,7 +210,8 @@ export default function Rating() {
               padding: '4px 12px',
               letterSpacing: '1px',
               lineHeight: '20px',
-              whiteSpace: 'nowrap'
+              whiteSpace: 'nowrap',
+              fontWeight:'500'
             }}>
               No
             </span>
@@ -231,7 +233,7 @@ export default function Rating() {
                 marginBottom: '8px'
               }}
             >
-              <small style={{ fontWeight: '500', color: '#212529', fontSize: '0.875rem' }}>
+              <small style={{ fontWeight: '400', color: '#212529', fontSize: '0.875rem' }}>
                 Casino Apps
               </small>
               <small style={{ color: '#6c757d' }}>
@@ -380,7 +382,6 @@ export default function Rating() {
         {/* Footer Section */}
         <div style={{
           margin: '24px 0px 15px 0px',
-          borderBottom: '1px solid #b2b1b1ff',
           paddingBottom: '20px'
         }}>
           <div
@@ -451,6 +452,7 @@ export default function Rating() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }
