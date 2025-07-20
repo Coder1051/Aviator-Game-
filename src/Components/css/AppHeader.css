@@ -166,9 +166,9 @@ div {
 }
 
 .divider {
-  width: 1px !important;
-  height: 30pxc !important;
-  background-color: #ddd;
+  width: 0.7px !important;
+  height: 13pxc !important;
+  background-color: #ddddddb3;
   flex-shrink: 0;
 }
 
@@ -184,6 +184,14 @@ div {
   .stat,
   .divider {
     flex-shrink: 0;
+  }
+}
+
+@media (max-width: 412px) {
+    .png {
+    width: 16px;
+    height: auto;
+    margin-top: 7.7px;
   }
 }
 
@@ -203,7 +211,7 @@ div {
 
   .divider {
     margin: 0 6px;
-    height: 30px;
+    height: 20px !important; 
     width: 3px !important;
     height: 30pxc !important;
     background-color: #ddd;
@@ -214,6 +222,7 @@ div {
   .png {
     width: 16px;
     height: auto;
+    margin-top: 7.7px;
   }
 
   svg {
@@ -347,8 +356,8 @@ div {
 
 .divider {
   flex-shrink: 0;
-  width: 1px;
-  height: 40px;
+  width: 0.5px;
+  height: 30px;
   background-color: #ddd;
 }
 

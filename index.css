@@ -6,11 +6,16 @@ body {
     font-weight: 300;
     line-height: 1.4;
     text-rendering: optimizeLegibility;
-    padding: 30px 100px 0px 100px; 
+    padding: 40px 100px 0px 100px; 
 }
 
 @media (max-width: 900px) {
     body {
         padding: 10px 20px; 
+    }
+}
+@media (max-width: 450px) {
+    body {
+        padding: 5px 10px; 
     }
 }

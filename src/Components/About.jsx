@@ -15,8 +15,8 @@ export default function About() {
   };
 
   return (
-    <div 
-      className="container-fluid" 
+    <div
+      className="container-fluid"
       style={{
         width: '100%',
         backgroundColor: 'white',
@@ -35,13 +35,13 @@ export default function About() {
         maxWidth: '100%',
         margin: '0 auto'
       }}>
-        
+
         {/* About Section */}
         <div style={{
           marginBottom: '24px',
           padding: '16px 0'
         }}>
-          <div 
+          <div
             className="d-flex justify-content-between align-items-center"
             style={{
               marginBottom: '16px',
@@ -49,7 +49,7 @@ export default function About() {
               gap: '8px'
             }}
           >
-            <h2 
+            <h2
               style={{
                 fontSize: 'clamp(1rem, 2.5vw, 1.125rem)',
                 fontWeight: '500',
@@ -60,14 +60,14 @@ export default function About() {
             >
               About this game
             </h2>
-            <FaArrowRight 
+            <FaArrowRight
               style={{
                 cursor: 'pointer',
                 color: '#6c757d',
                 fontSize: '16px',
                 flexShrink: 0
               }}
-              onClick={handleArrowClick} 
+              onClick={handleArrowClick}
             />
           </div>
 
@@ -84,7 +84,17 @@ export default function About() {
             }}>
               India's first leading real money making Aviator game where you can
               start earning instantly and withdraw profit directly to your Bank
-              account using UPI. You can change your destiny using this app.
+              account using UPI. You can
+            </p>
+            <p style={{
+              margin: '0 0 12px 0',
+              padding: '0',
+              color: '#555',
+              fontSize: 'clamp(0.875rem, 2vw, 0.875rem)',
+              lineHeight: '1.5',
+              wordBreak: 'break-word'
+            }}>
+              change your destiny using this app.
             </p>
             <p style={{
               margin: '0',
@@ -127,7 +137,7 @@ export default function About() {
           marginTop: '32px',
           marginBottom: '32px'
         }}>
-          <div 
+          <div
             className="d-flex justify-content-between align-items-center"
             style={{
               marginBottom: '16px',
@@ -135,7 +145,7 @@ export default function About() {
               gap: '8px'
             }}
           >
-            <h2 
+            <h2
               style={{
                 fontSize: 'clamp(1rem, 2.5vw, 1.125rem)',
                 fontWeight: '500',
@@ -146,7 +156,7 @@ export default function About() {
             >
               Data safety
             </h2>
-            <FaArrowRight 
+            <FaArrowRight
               style={{
                 cursor: 'pointer',
                 color: '#6c757d',
@@ -182,9 +192,9 @@ export default function About() {
             marginTop: '16px',
             marginBottom: '10px'
           }}>
-            
+
             {/* Safety Item 1 */}
-            <div 
+            <div
               className="d-flex"
               style={{
                 alignItems: 'flex-start',
@@ -192,7 +202,7 @@ export default function About() {
                 flexWrap: 'wrap'
               }}
             >
-              <IoShareSocialOutline 
+              <IoShareSocialOutline
                 style={{
                   color: '#4a4a4a',
                   fontSize: 'clamp(18px, 3vw, 20px)',
@@ -218,9 +228,9 @@ export default function About() {
                   lineHeight: '1.4',
                   wordBreak: 'break-word'
                 }}>
-                  <span style={{ 
-                    textDecoration: "underline", 
-                    padding: '0px', 
+                  <span style={{
+                    textDecoration: "underline",
+                    padding: '0px',
                     margin: '0px'
                   }}>
                     Learn more
@@ -230,7 +240,7 @@ export default function About() {
             </div>
 
             {/* Safety Item 2 */}
-            <div 
+            <div
               className="d-flex"
               style={{
                 alignItems: 'flex-start',
@@ -238,7 +248,7 @@ export default function About() {
                 flexWrap: 'wrap'
               }}
             >
-              <AiOutlineCloudUpload 
+              <AiOutlineCloudUpload
                 style={{
                   color: '#4a4a4a',
                   fontSize: 'clamp(18px, 3vw, 20px)',
@@ -264,9 +274,9 @@ export default function About() {
                   lineHeight: '1.4',
                   wordBreak: 'break-word'
                 }}>
-                  <span style={{ 
-                    textDecoration: "underline", 
-                    padding: '0px', 
+                  <span style={{
+                    textDecoration: "underline",
+                    padding: '0px',
                     margin: '0px'
                   }}>
                     Learn more
@@ -279,7 +289,7 @@ export default function About() {
               fontWeight: '500',
               color: '#01875f',
               textDecoration: 'none',
-              marginLeft: 'clamp(12px, 3vw, 24px)',
+              marginLeft: 'clamp(6px, 1.5vw, 12px)',
               fontSize: 'clamp(0.875rem, 2vw, 1rem)',
               margin: '8px 0 0 clamp(12px, 3vw, 24px)',
               cursor: 'pointer'
@@ -320,9 +330,9 @@ export default function About() {
             flexDirection: 'column',
             margin: '16px'
           }}>
-            
+
             {/* Modal Header */}
-            <div 
+            <div
               className="d-flex justify-content-between align-items-center"
               style={{
                 marginBottom: '20px',
@@ -331,9 +341,9 @@ export default function About() {
               }}
             >
               <div className="d-flex align-items-center" style={{ flex: 1, minWidth: 0 }}>
-                <img 
-                  src="./images/logo.webp" 
-                  alt="logo" 
+                <img
+                  src="./images/logo.webp"
+                  alt="logo"
                   style={{
                     width: 'clamp(48px, 10vw, 72px)',
                     height: 'clamp(48px, 10vw, 72px)',
@@ -358,8 +368,8 @@ export default function About() {
                   </p>
                 </div>
               </div>
-              
-              <span 
+
+              <span
                 onClick={handleClose}
                 style={{
                   fontSize: 'clamp(20px, 4vw, 24px)',

@@ -30,7 +30,7 @@ const AppHeader = () => {
         </div>
         <div className="divider" />
         <div className="stat">
-          <span style={{paddingLeft:'25px' }}>
+          <span style={{ paddingLeft: '25px' }}>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
               <rect fill="none" width="20" height="20"></rect>
               <path d="M10.54,11.09L8.66,9.22l-1.02,1.02l2.9,2.9l5.8-5.8l-1.02-1.01L10.54,11.09z M15.8,16.24H8.2L4.41,9.66L8.2,3h7.6l3.79,6.66 L15.8,16.24z M17,1H7L2,9.66l5,8.64V23l5-2l5,2v-4.69l5-8.64L17,1z"></path>
@@ -40,12 +40,11 @@ const AppHeader = () => {
         </div>
 
         <div className="divider" />
-        <div className="stat">
-          <span style={{ alignContent: 'center', justifyContent: 'center',paddingLeft:'25px' }}><img src="./images/18+.png" className='png' style={{ width: '16px', background: 'contain' }} /></span>
-          <p className="subtext">Rated for 18+ <InfoOutlined style={{ marginRight: '4px', fontSize: '12px' }} /></p>
+        <div className="stat " style={{ marginTop: '3.5px' }}>
+          <span style={{ alignContent: 'center', justifyContent: 'center', paddingLeft: '25px' }}><img src="./images/18+.png" className='png' style={{ width: '16px', background: 'contain' }} /></span>
+          <p className="subtext">Rated for 18+ <InfoOutlined style={{ marginRight: '4px', fontSize: '12px', marginTop: '-2px' }} /></p>
         </div>
       </div>
-
       {/* 3. Install Button & Wishlist */}
       <div className="install-section">
         <button className="install-button">Install</button>
@@ -64,7 +63,7 @@ const AppHeader = () => {
       </div>
 
       {/* 5. Screenshots */}
- <div className="screenshots" style={{
+      <div className="screenshots" style={{
         display: 'flex',
         overflowX: 'auto',
         overflowY: 'hidden',
