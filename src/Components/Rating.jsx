@@ -153,7 +153,7 @@ export default function Rating() {
           <div className="d-flex" style={{fontSize:"10px"}}>
             {renderStars(review.rating)}
           </div>
-          <small style={{ color: '#6c757d' }}>{review.date}</small>
+          <small style={{ color: '#6c757d',fontSize:"10px" }}>{review.date}</small>
         </div>
 
         <p style={{
@@ -183,7 +183,7 @@ export default function Rating() {
             marginBottom: '16px'
           }}
         >
-          <small style={{ color: '#6c757d' }}>Did you find this helpful?</small>
+          <small style={{ color: '#6c757d',fontSize:"11px" }}>Did you find this helpful?</small>
           <div className="d-flex flex-wrap gap-2">
             <span style={{
               fontSize: '14px',
