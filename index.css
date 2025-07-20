@@ -1,0 +1,16 @@
+body {
+    background-color: #eee;
+    color: #333;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+    padding: 20px 100px 0px 100px; 
+}
+
+@media (max-width: 900px) {
+    body {
+        padding: 0 20px; 
+    }
+}
