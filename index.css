@@ -6,7 +6,7 @@ body {
     font-weight: 300;
     line-height: 1.4;
     text-rendering: optimizeLegibility;
-    padding: 40px 100px 0px 100px; 
+    padding: 50px 110px 0px 110px; 
 }
 
 @media (max-width: 900px) {

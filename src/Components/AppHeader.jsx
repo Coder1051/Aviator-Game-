@@ -20,12 +20,12 @@ const AppHeader = () => {
       <div className="app-stats-section">
         <div className="stat ms-3">
           {/* <FaStar className="star-icon" /> */}
-          <span className="rating" >4.9 ★</span>
+          <span className="rating ps-3" >4.9 ★</span>
           <p className="subtext">19K reviews</p>
         </div>
         <div className="divider" />
         <div className="stat">
-          <span className="rating">500K+</span>
+          <span className="rating ps-3">500K+</span>
           <p className="subtext">Downloads</p>
         </div>
         <div className="divider" />
@@ -47,7 +47,7 @@ const AppHeader = () => {
       </div>
       {/* 3. Install Button & Wishlist */}
       <div className="install-section">
-        <button className="install-button">Install</button>
+        <button className="install-button " style={{height:''}}>Install</button>
         <div className="wishlist text-center">
           <svg className="my-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 3H17C18.1045 3 19 3.8955 19 5V21L12 18L5 21L5.01075 5C5.01075 3.8955 5.8965 3 7 3ZM12 15.824L17 18V5H7V18L12 15.824ZM13 7V9H15V11H13V13H11V11H9V9H11V7H13Z" />
